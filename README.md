@@ -7,7 +7,7 @@ As a merchant using LNbits notifications are critical to make sure you serve you
 
 I've tried using a few mobile wallets to help with the notifications (Zeus, BitBanana, Samurai, BlueWallet, etc.), but none of them send notifications.
 
-This short tutorial will build a python script which will check the balance of a wallet and notifies you via Telegram chat that the balance has changed.
+This short tutorial will build a python script which will check the balance of a wallet and notifies you via Telegram chat if the balance has changed.
 
 # What you will need?
 
