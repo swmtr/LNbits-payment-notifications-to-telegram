@@ -11,6 +11,8 @@ This short tutorial will build a python script which will check the balance of a
 
 # What you will need?
 
+This tutorial assumes, you already know what LNbits is and how to use it as well as are familiar with Telegram.
+
 1. LNbits instance (https://github.com/lnbits/lnbits)
 2. Telegram bot (https://core.telegram.org/bots/tutorial)
 3. A computer or a server where you can run a python sript and a cron
@@ -190,4 +192,4 @@ This cron will run your script every 5 mins and will output any errors into a lo
 
 This setup is just a hack to get notified. It is by no means perfect, but it will do the job.
 
-If you found this guide useful, why not let it be known by [sending me a few sats](https://getalby.com/p/swmtr) or ⚡ swmtr@360swim.com . 
+If you found this guide useful, why not let it be known by [sending me a few sats](https://pay.360swim.com/tipjar/4) or via LN address⚡swmtr@360swim.com . 
