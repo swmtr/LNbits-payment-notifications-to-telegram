@@ -31,7 +31,7 @@ To test if it works run the command under the Get wallet details section:
 curl <ADD YOUR API URL> -H "X-Api-Key: <YOUR KEY>" 
 ```
 
-Replace the <ADD YOUR API URL> and <YOUR KEY> with the values you see in your LNbits instance.
+Replace the "<ADD YOUR API URL>" and "<YOUR KEY>" with the values you see in your LNbits instance.
 The result should be a JSON object with name and balance
 
 {"name":"wallet name","balance":0}
