@@ -28,10 +28,10 @@ When you have your LNbits setup, you will need the
 To test if it works run the command under the Get wallet details section:
 
 ```
-curl <ADD YOUR API URL> -H "X-Api-Key: <YOUR KEY>" 
+curl {ADD YOUR API URL} -H "X-Api-Key: {YOUR KEY}" 
 ```
 
-Replace the "<ADD YOUR API URL>" and "<YOUR KEY>" with the values you see in your LNbits instance.
+Replace the {ADD YOUR API URL} and {YOUR KEY} with the values you see in your LNbits instance.
 The result should be a JSON object with name and balance
 
 {"name":"wallet name","balance":0}
@@ -44,10 +44,10 @@ Then you will need a chat ID where you will chat with your bot. To get that, you
 
 After you find it, click the bot and send a first message "hello world". 
 
-Now, to retrieve the id of the chat, run this command on your computer (replacing <YOUR TOKEN> with the API token you received from Telegram earlier):
+Now, to retrieve the id of the chat, run this command on your computer (replacing {YOUR TOKEN} with the API token you received from Telegram earlier):
 
 ```
-curl https://api.telegram.org/bot<YOUR TOKEN>/getUpdates
+curl https://api.telegram.org/bot{YOUR TOKEN}/getUpdates
 ```
 
 The result will be a JSON object which wil have the message and also the chat id ("chat":{"id":<SOME NUMBER>) 
@@ -108,11 +108,11 @@ logging.basicConfig(filename='script.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Set the API URL and key
-url = "https://<YOUR LNBITS URL>/api/v1/wallet"
-headers = {"X-Api-Key": "<YOUR LNBITS WALLET API KEY"}
+url = "https://REPLACE YOUR LNBITS URL/api/v1/wallet"
+headers = {"X-Api-Key": "REPLACE YOUR LNBITS WALLET API KEY"}
 
 # Initialize the Telegram bot
-bot = telegram.Bot(token='<YOUR TELEGRAM BOT API TOKEN')
+bot = telegram.Bot(token='REPLACE YOUR TELEGRAM BOT API TOKEN')
 chat_id = "<YOUR BOT CHAT ID>"
 
 # Define the async function to send Telegram messages
@@ -182,7 +182,7 @@ crontab -e
 Add the following into it.
 
 ```
-*/5 * * * * /usr/bin/python3 <ABSOLUTE PATH TO YOUR PYTHON FILE>/balance.py >> <ABSOLUTE PATH TO YOUR CRONLOG FILE> 2>&1
+*/5 * * * * /usr/bin/python3 /ABSOLUTE PATH TO YOUR PYTHON FILE/balance.py >> /ABSOLUTE PATH TO YOUR CRONLOG FILE 2>&1
 ```
 
 Don't forget to replace the path to your python file and to the location where you want the log. 
