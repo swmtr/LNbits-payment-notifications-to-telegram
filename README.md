@@ -162,7 +162,14 @@ else:
 
 ```
 
+Don't forget to replace all the "REPLACE ME BLAH BLAH" sections for your data.
+
 You can remove all the logging code as that is mainly for debugging.
+If you want to keep testing, then you need to either send some sats to your wallet or better yet, just zero out the balance file.
+
+```
+echo "" > current-balance.txt.txt
+```
 
 To run the script use the following command:
 
