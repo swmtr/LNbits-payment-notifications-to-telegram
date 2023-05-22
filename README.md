@@ -340,4 +340,4 @@ If you found this guide useful, why not let it be known by [sending me a few sat
  
 At least you will test if I get notifications for my wallets :).
  
-Finally, if you are into swimming, checkout some [swimming tips](a href="https://360swim.com/tips").
+Finally, if you are into swimming, checkout some [swimming tips](https://360swim.com/tips).
