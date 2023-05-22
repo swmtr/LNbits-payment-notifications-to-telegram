@@ -334,4 +334,8 @@ This cron will run your script every 5 mins and will output any errors into a lo
 
 This setup is just a hack to get notified. It is by no means perfect, but it will do the job.
 
-If you found this guide useful, why not let it be known by [sending me a few sats](https://pay.360swim.com/tipjar/4) or via LN address⚡swmtr@360swim.com . At least you will test if I get notifications for my wallets :).
+If you found this guide useful, why not let it be known by [sending me a few sats](https://360swim.com/ln-donate-github) or via LN address⚡swmtr@360swim.com .
+<br />
+<img src="https://360swim.com/user/themes/swimquark/images/ln_git.png" width="400" />
+ 
+At least you will test if I get notifications for my wallets :).
