@@ -1,3 +1,4 @@
+# NOTE: THIS IS NO LONGER NEEDED AS LNBITS NOW HAS THIS ALERT AND MORE NATIVELY
 # Get a Telegram notification when the balance of your LNbits wallet changes
 LNbits (https://lnbits.com/) with its plethora of extensions is a great accounting system layered on top of your bitcoin holdings, but it is still young, so it lacks some basic functionality. 
 
